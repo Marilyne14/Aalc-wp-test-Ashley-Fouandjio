@@ -1,0 +1,31 @@
+# Ignorer les fichiers sensibles
+wp-config.php
+.htaccess
+
+# Ignorer les fichiers système ou de cache
+*.log
+*.sql
+*.sqlite
+*.zip
+*.tar
+*.tar.gz
+*.bak
+*.swp
+*.tmp
+.DS_Store
+Thumbs.db
+
+# Ignorer les fichiers/dossiers générés automatiquement
+node_modules/
+vendor/
+.env
+
+# Ignorer les plugins et thèmes non développés par toi
+wp-content/plugins/*
+!wp-content/plugins/ton-plugin-si-tu-en-as-un
+
+wp-content/themes/*
+!wp-content/themes/alc-child
+
+# Ignore le contenu uploadé (ex: images envoyées via l’admin)
+wp-content/uploads/
